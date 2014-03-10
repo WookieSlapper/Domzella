@@ -1,0 +1,25 @@
+﻿@{
+    ViewBag.Title = "Blog";
+}
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+
+<hgroup class="title">
+    <h1>@ViewBag.Title.</h1>
+    <h2>@ViewBag.Message</h2>
+</hgroup>
+
+
+    <h3>Pardon the Dust</h3>
+    This page is still under construction while I learn how to create and manage a blog database from scratch. (Yes, there
+    ARE easier ways to do it, but that defeats the whole learning thing, doesn't it?)
+
+<hr />
+<div class="fb-post" data-href="https://www.facebook.com/FacebookDevelopers/posts/10151471074398553" data-width="300"></div>

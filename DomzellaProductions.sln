@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomzellaProductions", "DomzellaProductions\DomzellaProductions.csproj", "{C3AA12A9-3124-4503-9099-32BA6A2C30A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomzellaProductions.Tests", "DomzellaProductions.Tests\DomzellaProductions.Tests.csproj", "{0748A3CE-861F-4D91-986A-00681EF6DDDE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3AA12A9-3124-4503-9099-32BA6A2C30A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3AA12A9-3124-4503-9099-32BA6A2C30A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3AA12A9-3124-4503-9099-32BA6A2C30A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3AA12A9-3124-4503-9099-32BA6A2C30A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0748A3CE-861F-4D91-986A-00681EF6DDDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0748A3CE-861F-4D91-986A-00681EF6DDDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0748A3CE-861F-4D91-986A-00681EF6DDDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0748A3CE-861F-4D91-986A-00681EF6DDDE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
