@@ -32,6 +32,11 @@ a {
         background-color: #c7d1d6;
     }
 
+.list li a:hover {
+    background-color: none;
+    background: none;
+}
+
 header, hgroup,
 nav, section {
     display: block;
