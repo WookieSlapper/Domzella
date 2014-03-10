@@ -250,10 +250,17 @@
     <Content Include="Global.asax" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="Images\aboutpic.jpg" />
+    <Content Include="Images\email.png" />
+    <Content Include="Images\facebook.png" />
+    <Content Include="Images\google.png" />
+    <Content Include="Images\Github.png" />
     <Content Include="Images\LayoffsMeme.jpg" />
+    <Content Include="Images\linkedin.png" />
     <Content Include="Images\SemicolonGraph.png" />
     <Content Include="Images\so-logo.png" />
+    <Content Include="Images\twitter.png" />
     <Content Include="Images\WideLake.png" />
+    <Content Include="Images\wordpress.png" />
     <Content Include="Scripts\jquery-1.8.2.js" />
     <Content Include="Scripts\jquery-1.8.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />

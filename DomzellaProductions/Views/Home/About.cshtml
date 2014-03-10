@@ -2,9 +2,6 @@
     ViewBag.Title = "About";
 }
 
-<script>
-    !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = "//platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");
-</script>
 <hgroup class="title">
     <h1>@ViewBag.Title.</h1>
     <h2>@ViewBag.Message</h2>
@@ -26,7 +23,7 @@
         Universe telling me that the time was nigh to be moving on to something bigger and better. I've dealt with a lot of change in life, 
         so this was nothing new, just another speed bump on the superhighway of life.
     </p>
-    <img src="~/Images/LayoffsMeme.jpg" />
+    <img class="largeImage" src="~/Images/LayoffsMeme.jpg" />
     <p>
         I had a lot of thoughts on what direction I wanted to head in. However, the reality of spending the next 4-5 years back in college 
         learning a new trade while entering my 40s was not your everyday challenge. The prospects for a new 
@@ -49,7 +46,7 @@
         else though, I realized that it was just going to take a little hard work, some perseverance, and maybe a little carpal-tunnel, 
         but I could handle it.
     </p>
-    <img src="~/Images/SemicolonGraph.png" />
+    <img class="largeImage" src="~/Images/SemicolonGraph.png" />
     <p>
         This web site is the product of my coding knowledge to date. I'm sure there's going to be some problems with it periodically
         as I break it just so I can figure out how to fix it (or just break it because I didn't know what I was doing at the time, but 
@@ -67,13 +64,16 @@
         As you can see, I'm a very happy person. Here's where you can find me on the Interwebs:
     </p>
     <ul class="list">
-        <li><a href ="https://stackoverflow.com/users/3403235" target="_blank"><img src="~/Images/so-logo.png" width="140" height="45" /></a></li>
-        <li><a href="https://twitter.com/wookieslapper" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow @@WookieSlapper</a></li>
-        <li><a href="http://www.linkedin.com/pub/dominic-mazella/88/727/678">
-          <img src="http://s.c.lnkd.licdn.com/scds/common/u/img/webpromo/btn_profile_bluetxt_80x15.png" width="100" height="15" border="0" alt="View Dominic Mazella's profile on LinkedIn" />
-            </a></li>
+        <li><a href ="https://github.com/WookieSlapper" target="_blank"><img src="~/Images/Github.png" /></a></li>
+        <li><a href="https://twitter.com/wookieslapper" target="_blank"><img src="~/Images/twitter.png" /></a></li>
+        <li><a href="http://www.linkedin.com/pub/dominic-mazella/88/727/678" target="_blank"><img src="~/Images/linkedin.png" /></a></li>
+        <li><a href="http://wookieslapper.wordpress.com/" target="_blank"><img src="~/Images/wordpress.png" /></a></li>
+        <li><a href="http://plus.google.com/u/0/101011820378361123461?rel=author" target="_blank"><img src="~/Images/google.png" /></a></li>
     </ul>
     <p>
         Or, you could just email me...
     </p>
+    <ul class="list">
+        <li><a href ="mailto:wookieslapper@domzella.com?Subject=WebsiteLink" target="_top"><img width="90" src="~/Images/email.png" /></a></li>
+    </ul>
 </aside>

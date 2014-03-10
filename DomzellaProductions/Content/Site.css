@@ -652,9 +652,14 @@ tr.pager td {
     }
 
     /* images */
-    img, iframe {
+   iframe {
         display: none;
         visibility: hidden;
+    }
+
+    img {
+        width: 20%;
+        height: 20%;
     }
 
     /* login */
