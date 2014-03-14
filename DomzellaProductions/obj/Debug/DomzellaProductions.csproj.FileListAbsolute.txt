@@ -168,3 +168,4 @@ C:\Git\Domzella\DomzellaProductions\bin\zh-Hant\System.Spatial.resources.dll
 C:\Git\Domzella\DomzellaProductions\obj\Debug\DomzellaProductions.csprojResolveAssemblyReference.cache
 C:\Git\Domzella\DomzellaProductions\obj\Debug\DomzellaProductions.dll
 C:\Git\Domzella\DomzellaProductions\obj\Debug\DomzellaProductions.pdb
+C:\Git\Domzella\DomzellaProductions\bin\DomzellaProductions.dll.CodeAnalysisLog.xml
