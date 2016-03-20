@@ -1,0 +1,44 @@
+﻿@{
+    ViewBag.Title = "Home";
+}
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>@ViewBag.Title.</h1>
+                <h2>@ViewBag.Message</h2>
+            </hgroup>
+        </div>
+    </section>
+}
+<h3>Got Some Things to Share with You:</h3>
+<ol class="round">
+    <li class="one">
+        <h5>The Great Migration</h5>
+        The journey from English teacher to computer programmer is not one I expected nor could have predicted, but it's the one I'm on. 
+        Saddle up.
+        @Html.ActionLink("Learn more...", "About", "Home")
+    </li>
+
+    <li class="two">
+        <h5>Learning to Swim in a New Pond</h5>
+        It's hard work, learning to code. There are tons of things to read, view, watch, listen to, try, and mess up. Here's how I'm
+        doing it.
+        @Html.ActionLink("Learn more...", "Coding", "Home")
+    </li>
+
+    <li class="three">
+        <h5>Changing the World, One Random Thought at a Time</h5>
+        Everyone being brings his or her own Butterfly Effect to the party. We all have this pocket full of pebbles. Pull up a rock. 
+        Make a ripple. I dare you.
+        @Html.ActionLink("Learn more...", "Blog", "Home")
+    </li>
+
+    <li class="four">
+        <h5>Watching the Growth Happen</h5> 
+        Every step along the way has brought me closer to this very point, and if there's anything I've learned, it's that every
+         experience just makes you better prepared for the next one.
+        @Html.ActionLink("Learn more...", "Portfolio", "Home")
+    </li>
+</ol>
+

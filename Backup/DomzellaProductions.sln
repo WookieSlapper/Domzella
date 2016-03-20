@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
-MinimumVisualStudioVersion = 10.0.40219.1
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomzellaProductions", "DomzellaProductions\DomzellaProductions.csproj", "{C3AA12A9-3124-4503-9099-32BA6A2C30A6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomzellaProductions.Tests", "DomzellaProductions.Tests\DomzellaProductions.Tests.csproj", "{0748A3CE-861F-4D91-986A-00681EF6DDDE}"
